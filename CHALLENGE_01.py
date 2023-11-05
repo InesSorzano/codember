@@ -17,5 +17,3 @@ numerOfAnimals = ""
 for animal in animals:
     numerOfAnimals = numerOfAnimals + animal + str(animals[animal])
 print(numerOfAnimals)
-
-
