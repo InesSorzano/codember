@@ -14,6 +14,6 @@ for animal in listOfAnimals:
         animals.update({animal: 1})
 
 numerOfAnimals = ""
-for animal in animals:
-    numerOfAnimals = numerOfAnimals + animal + str(animals[animal])
+for animal, count in animals.items():
+    numerOfAnimals +=  animal + str(count)
 print(numerOfAnimals)
